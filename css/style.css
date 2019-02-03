@@ -1,0 +1,173 @@
+/***************** HEADER *****************/
+header {
+    background-color: rgb(238, 236, 236);
+    padding-top: 1%;
+}
+#gauche {
+    margin-left: 5%;
+}
+
+#droite {
+    margin-right: 5%;
+}
+
+#gauche img {
+    margin-top: 5%;
+    height: 5vh;
+    width: auto;
+}
+
+#gauche span {
+    color: orange;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#paie img{
+    height: 2vh;
+    width: auto;
+}
+
+#paie img, #paie p {
+    display: inline-block;
+    padding: 0 1vh;
+}
+
+#paie {
+    border: 0.1vh solid grey;
+    padding: 0.5vh;
+}
+
+#salut p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 2vh;
+    padding-top: 0.5vh;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:after {
+    content: "|";
+    padding: 0 1vh;
+}
+
+nav a:first-child:before {
+    content: "|";
+    padding: 0 1vh;
+}
+
+/***************** SECTION *****************/
+section {
+    background-color: rgb(17, 17, 17);
+}
+
+#content {
+    width: 65%;
+    background-color: white;
+}
+
+#catalogue img {
+    width: 100%;
+}
+
+.photo {
+    height: 70%;
+    border: 0.1vh solid grey;
+    box-shadow: 0.5vh 0.5vh rgb(187, 187, 187);
+    
+}
+
+#produits img {
+    height: 80%;
+    width: 50%;
+    padding-top: 1%;
+}
+
+.button_prix p {
+    display: inline-block;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.button_prix p:first-child {
+    color: white;
+    background-color: black;
+    border: 0.1vh solid black;
+    border-radius: 0.5vh;
+    padding: 1% 3%;
+    
+}
+
+.button_prix p:last-child {
+    font-weight: bold;
+    font-size: 3vh;
+    color: orange;
+    padding-left: 30%;
+}
+
+.button_prix span {
+    color: black;
+    font-size: 2vh;
+    text-decoration: line-through;
+}
+
+.reduction p{
+    color: orange;
+    border: 0.1vh solid orange;
+    border-radius: 0.5vh;
+    background-color: rgb(29, 28, 28);
+    padding: 0.5vh 1vh;
+    font-weight: bold;
+    font-size: 2vh;
+    width: 15%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0.5vh;
+    margin-left: 82%;
+    text-align: center;
+    box-shadow: 0.2vh 0.2vh rgb(29, 28, 28);
+}
+
+/***************** FOOTER *****************/
+footer {
+    background-color: rgb(68, 68, 68);
+}
+
+.infoT {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 7%;
+}
+
+.info {
+    width: 20%;
+    height: 1vh;
+    text-align: justify;
+}
+
+.info img {
+    margin-left: 35%;
+    height: 5vh;
+}
+
+.info p {
+    color: white;
+    font-size: 1.2vh;
+}
+
+.line {
+    width: 40%;
+}
+
+.reseaux img {
+    width: auto;
+    height: 3vh;
+}
+
+footer p:last-of-type {
+    color: white;
+    font-size: 1.2vh;
+}

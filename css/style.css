@@ -1,52 +1,24 @@
 /***************** HEADER *****************/
 header {
     background-color: rgb(238, 236, 236);
-    padding-top: 1%;
-}
-#gauche {
-    margin-left: 5%;
-}
-
-#droite {
-    margin-right: 5%;
 }
 
 #gauche img {
-    margin-top: 5%;
     height: 5vh;
     width: auto;
 }
 
 #gauche span {
     color: orange;
-    font-weight: bold;
-    font-style: italic;
 }
 
 #paie img{
-    height: 2vh;
+    height: 2.5vh;
     width: auto;
 }
 
-#paie img, #paie p {
-    display: inline-block;
-    padding: 0 1vh;
-}
-
-#paie {
-    border: 0.1vh solid grey;
-    padding: 0.5vh;
-}
-
 #salut p {
-    text-align: right;
-    font-weight: bold;
     font-size: 2vh;
-    padding-top: 0.5vh;
-}
-
-nav a {
-    color: black;
 }
 
 nav a:after {
@@ -64,13 +36,9 @@ section {
     background-color: rgb(17, 17, 17);
 }
 
-#content {
-    width: 65%;
-    background-color: white;
-}
-
 #catalogue img {
     width: 100%;
+    object-fit: cover;
 }
 
 .photo {
@@ -80,7 +48,7 @@ section {
     
 }
 
-#produits img {
+.produits img {
     height: 80%;
     width: 50%;
     padding-top: 1%;
@@ -136,20 +104,7 @@ footer {
     background-color: rgb(68, 68, 68);
 }
 
-.infoT {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 7%;
-}
-
-.info {
-    width: 20%;
-    height: 1vh;
-    text-align: justify;
-}
-
 .info img {
-    margin-left: 35%;
     height: 5vh;
 }
 
@@ -168,6 +123,5 @@ footer {
 }
 
 footer p:last-of-type {
-    color: white;
     font-size: 1.2vh;
 }

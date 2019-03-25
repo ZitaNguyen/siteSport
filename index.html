@@ -8,44 +8,54 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Personal CSS -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Sport</title>
 </head>
 
 <body>
-    <header class="row justify-content-around ">
-        <div id="gauche" class="col-xs-3">
-            <img src="img/logo.png" alt="Logo">
-            <p>Lorem ipsum dolor <span>sit amet</span></p>
-        </div>
+    <header class="py-3">
+        <div class="container">
+            <div class="row">
+                <!-- Header a gauche -->
+                <div id="gauche" class="col-md-5 col-lg-6 col-xl-7">
+                    <img src="img/logo.png" alt="Logo">
+                    <p>Lorem ipsum dolor <span class="font-weight-bold font-italic">sit amet</span></p>
+                </div><!-- col -->
 
-        <div id="droite" class="col-xs-9">
-            <div id="paie">
-                <img src="img/icon-mon-compte.png" alt="Mon Compte">
-                <p>Mon compte</p>
-                <img src="img/icon-mon-panier.png" alt="Mon Panier">
-                <p>Votre panier est vide</p>
-            </div>
-            <div id="salut">
-                <p>Bonjour Julien</p>
-            </div>
-            <nav>
-                <a href="">Contactez-nous</a>
-                <a href="">Parrainage</a>
-                <a href="">Déconnection</a>
-            </nav>
-        </div>
+                <!-- Header a droit -->
+                <div id="droite" class="col-md-auto col-lg-auto col-xl-auto">
+                    <div id="paie" class="border border dark d-flex justify-content-center pt-2">
+                        <img src="img/icon-mon-compte.png" alt="Mon Compte" class="px-2">
+                        <p class="px-2">Mon compte</p>
+                        <img src="img/icon-mon-panier.png" alt="Mon Panier" class="px-2">
+                        <p class="px-2">Votre panier est vide</p>
+                    </div>
+                    <div id="salut" class="text-right font-weight-bold pt-1">
+                        <p>Bonjour Julien</p>
+                    </div>
+                    <nav>
+                        <a href="#" class="text-dark">Contactez-nous</a>
+                        <a href="#" class="text-dark">Parrainage</a>
+                        <a href="#" class="text-dark">Déconnection</a>
+                    </nav>
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
     </header>
 
-    <section class="row justify-content-center">
-        <div id="content">
+    <section>
+        <div class="container">
+            <!-- Image Principal -->
             <div id="catalogue">
                 <img src="img/header-page-catalogue.png" alt="Catalogue">
             </div>
 
-            <div id="produits" class="row justify-content-around">
-                <div class="col-md-5 mt-5">
+            <!-- Les produits -->
+            <div class="row bg-white produits">
+                <div class="col-md-6 mt-5">
                     <div class="reduction">
                         <p>- 45%</p>
                     </div>
@@ -57,9 +67,9 @@
                         <p>Voir la vente</p>
                         <p><span class="align-top">120 &euro;</span> 65 &euro;</p>
                     </div>
-                </div>
+                </div><!-- col -->
 
-                <div class="col-md-5 mt-5">
+                <div class="col-md-6 mt-5">
                     <div class="reduction">
                         <p>- 60%</p>
                     </div>
@@ -71,9 +81,9 @@
                         <p>Voir la vente</p>
                         <p><span class="align-top">120 &euro;</span> 65 &euro;</p>
                     </div>
-                </div>
+                </div><!-- col -->
 
-                <div class="col-md-5 mt-5">
+                <div class="col-md-6 mt-5">
                     <div class="reduction">
                         <p>- 30%</p>
                     </div>
@@ -85,9 +95,9 @@
                         <p>Voir la vente</p>
                         <p><span class="align-top">120 &euro;</span> 65 &euro;</p>
                     </div>
-                </div>
+                </div><!-- col -->
 
-                <div class="col-md-5 mt-5">
+                <div class="col-md-6 mt-5">
                     <div class="reduction">
                         <p>- 70%</p>
                     </div>
@@ -99,48 +109,52 @@
                         <p>Voir la vente</p>
                         <p><span class="align-top">120 &euro;</span> 65 &euro;</p>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
     </section>
 
     <footer>
-        <div class="row justify-content-around pt-3 infoT">
-            <div class="col-xs-3 info">
-                <img src="img/icon-livre.png" alt="Livre">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
-                    reprehenderit ad, consequatur accusamus</p>
-            </div>
-            <div class="col-xs-3 info">
-                <img src="img/icon-camion.png" alt="Camion">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
-                    reprehenderit ad, consequatur accusamus</p>
-            </div>
-            <div class="col-xs-3 info">
-                <img src="img/icon-cadenat.png" alt="Cadenat">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
-                    reprehenderit ad, consequatur accusamus</p>
-            </div>
-            <div class="col-xs-3 info">
-                <img src="img/icon-pouce.png" alt="Pouce">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
-                    reprehenderit ad, consequatur accusamus</p>
-            </div>
-        </div>
+        <div class="container">
+            
+            <!-- Infos supplementaires -->
+            <div class="row pt-4">
+                <div class="col-md-3 col-sm-6 info">
+                    <img class="mx-auto d-block" src="img/icon-livre.png" alt="Livre">
+                    <p class="text-center pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
+                        reprehenderit ad, consequatur accusamus</p>
+                </div>
+                <div class="col-md-3 col-sm-6 info">
+                    <img class="mx-auto d-block" src="img/icon-camion.png" alt="Camion">
+                    <p class="text-center pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
+                        reprehenderit ad, consequatur accusamus</p>
+                </div>
+                <div class="col-md-3 col-sm-6 info">
+                    <img class="mx-auto d-block" src="img/icon-cadenat.png" alt="Cadenat">
+                    <p class="text-center pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
+                        reprehenderit ad, consequatur accusamus</p>
+                </div>
+                <div class="col-md-3 col-sm-6 info">
+                    <img class="mx-auto d-block" src="img/icon-pouce.png" alt="Pouce">
+                    <p class="text-center pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum amet sapiente
+                        reprehenderit ad, consequatur accusamus</p>
+                </div>
+            </div><!-- row -->
 
-        <div class="row justify-content-center">
-            <div class="col-xs-1 border-bottom border-white line"></div>
-        </div>
+            <!-- Line break -->
+            <div class="row justify-content-center pt-2">
+                <div class="border-top border-white line"></div>
+            </div><!-- row -->
 
+            <!-- Reseau Sociaux -->
+            <div class="reseaux pt-3 d-flex justify-content-around">
+                <a href="#"><img src="img/icon-facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/icon-twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="img/icon-linkedin.png" alt="Linkedin"></a>
+            </div><!-- row -->
 
-        <div class="row justify-content-center reseaux">
-            <a href="" class="col-xs-4 p-2"><img src="img/icon-facebook.png" alt="Facebook"></a>
-            <a href="" class="col-xs-4 p-2"><img src="img/icon-twitter.png" alt="Twitter"></a>
-            <a href="" class="col-xs-4 p-2"><img src="img/icon-linkedin.png" alt="Linkedin"></a>
-        </div>
-
-        <p class="row justify-content-center mt-3"> &#169; sport privilege. Tous droits réservés.</p>
-
+            <p class="text-center text-white py-3"> &#169; sport privilege. Tous droits réservés.</p>
+        </div><!-- container -->
     </footer>
 
     <!-- Optional JavaScript -->
